@@ -15,7 +15,7 @@ public class TestFactoriel {
 
     @Test
     void factorial() {
-        assertEquals(0,fact.factorial(0));
+        assertEquals(1,fact.factorial(0));
 
     }
     @Test
