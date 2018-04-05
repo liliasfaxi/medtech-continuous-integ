@@ -50,7 +50,7 @@ public class TestStringUtils {
     public void testConvertToDoubleOK() {
         // Test case with the age is a numeric string
         String age = "1990";
-        Double expAge = new Double(1990);
+        Double expAge = new Double(1991);
         Double actual = StringUtils.convertToDouble(age);
 
         /*assertAll("Do many assertions.", () -> {
